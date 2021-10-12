@@ -1,3 +1,0 @@
-# Library Android
-
-TODO
