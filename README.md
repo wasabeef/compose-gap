@@ -30,10 +30,10 @@ Gap is another option. It's like Spacer but you don't have to know if it's insid
 Gradle settings
 ```kotlin
 // Groovy DSL
-implementation 'jp.wasabeef:gap:0.0.1'
+implementation 'jp.wasabeef:gap:1.0.0'
 
 // Kotlin DSL
-implementation('jp.wasabeef:gap:0.0.1')
+implementation('jp.wasabeef:gap:1.0.0')
 ```
 
 Then you just have to add a `Gap` inside a `Column` or a `Row` with the specified extent.
