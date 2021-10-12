@@ -1,52 +1,55 @@
-# kotlin-android-library-template 🤖
+# Compose Gap
 
-![Android CI](https://github.com/lcdsmao/kotlin-android-template/workflows/Android%20CI/badge.svg) ![License](https://img.shields.io/github/license/cortinico/kotlin-android-template.svg) ![Language](https://img.shields.io/github/languages/top/cortinico/kotlin-android-template?color=blue&logo=kotlin)
+<img height="160px" src="https://github.com/wasabeef/transformers/raw/main/art/jetpack-compose.svg" align="right" />
 
-A simple Github template that lets you create an **Android/Kotlin** library.
+<p align="left">
+  <a href="https://www.apache.org/licenses/LICENSE-2.0">
+    <img src="https://img.shields.io/badge/license-Apache%202-blue.svg" />
+  </a>
+  <a href="https://search.maven.org/search?q=jp.wasabeef.gap">
+    <img src="https://maven-badges.herokuapp.com/maven-central/jp.wasabeef/gap/badge.svg" />
+  </a>
+  <a href="https://github.com/wasabeef/compose-gap/actions">
+    <img src="https://github.com/wasabeef/compose-gap/actions/workflows/android-ci.yml/badge.svg" />
+  </a>
+</p>
 
-Forked from [cortinico/kotlin-android-template](https://github.com/cortinico/kotlin-android-template).
+Easily adding gaps inside such as Columns and Rows for Jetpack Compose.
+
+Inspired by [Flutter's Gap](https://pub.dev/packages/gap).
+
+## Introduction
+When it comes to add empty space between widgets inside a Column or a Row, we have multiple options:
+
+We can either add a Padding around these widgets but it's very verbose
+Or we can add Spacer widgets between them.
+Gap is another option. It's like Spacer but you don't have to know if it's inside a Row or a Column. So that it's less verbose than using a Spacer.
 
 ## Features
 
-- **100% Kotlin-only template**.
-- 3 Sample modules (Android app, Android library, Kotlin library).
-- 100% Gradle Kotlin DSL setup.
-- Dependency versions managed via `versions.properties`.
-- CI Setup with GitHub Actions.
-- Deploy website and docs.
-- Kotlin Static Analysis via `detekt`.
-- Publishing Ready.
-- Issues Template (bug report + feature request)
-- Pull Request Template.
+Gradle settings
+```kotlin
+// Groovy DSL
+implementation 'jp.wasabeef:gap:0.0.1'
 
-## Gradle Setup
+// Kotlin DSL
+implementation('jp.wasabeef:gap:0.0.1')
+```
 
-This template is using [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html) as well as the [Plugin DSL](https://docs.gradle.org/current/userguide/plugins.html#sec:plugins_block) to setup the build.
+Then you just have to add a `Gap` inside a `Column` or a `Row` with the specified extent.
+```kotlin
+  Column {
+    Text(text = "Hello")
+    Gap(height = 20.dp) // Adds an empty space of 20 pixels.
+    Text(text = "World")
+  }
 
-Dependencies are centralized inside the [versions.properties](versions.properties) managed by [RefreshVersions](https://github.com/jmfayard/refreshVersions).
-
-To check the newest version of dependencies you can run `./gradlew refreshVersions`.
-
-## Static Analysis
-
-This template is using [detekt](https://github.com/arturbosch/detekt) to analyze the source code, with the configuration that is stored in the [detekt.yml](config/detekt/detekt.yml) file.
-
-To reformat all the source code as well as the buildscript you can run `./gradlew detektFormat`.
-
-## CI
-
-This template is using [GitHub Actions](https://github.com/lcdsmao/kotlin-android-template/actions) as CI.
-
-## Docs
-
-This template deploy the website to the Github Pages via [Material for MkDocs](https://github.com/squidfunk/mkdocs-material) and [Dokka](https://github.com/Kotlin/dokka).
-
-## Publishing
-
-The template is setup to be ready to publish a library/artifact on a Maven Repository 
-via [gradle-maven-publish-plugin](https://github.com/vanniktech/gradle-maven-publish-plugin).
-
-See publish configuration in [gradle.properties](gradle.properties).
+  Row {
+    Text(text = "Hello")
+    Gap(width = 20.dp) // Adds an empty space of 20 pixels.
+    Text(text = "World")
+  }
+```
 
 ## Contributing
 
