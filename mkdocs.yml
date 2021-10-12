@@ -1,7 +1,6 @@
-# TODO: Modify these
-site_name: "kotlin-android-template"
-repo_name: lcdsmao/kotlin-android-template
-repo_url: https://github.com/lcdsmao/kotlin-android-template
+site_name: "compose-gap"
+repo_name: wasabeef/compose-gap
+repo_url: https://github.com/wasabeef/compose-gap
 remote_branch: gh-pages
 
 theme:

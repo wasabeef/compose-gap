@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# TODO: Modify these
-REPOSITORY="lcdsmao/kotlin-anroid-template"
-REF="refs/heads/master"
+REPOSITORY="wasabeef/compose-gap"
+REF="refs/heads/main"
 
 set -e
 
