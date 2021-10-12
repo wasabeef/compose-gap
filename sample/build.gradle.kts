@@ -15,5 +15,6 @@ dependencies {
   implementation(AndroidX.Compose.ui)
   implementation(AndroidX.Activity.compose)
   implementation(AndroidX.Compose.material)
+  implementation(AndroidX.Compose.foundation)
   implementation(AndroidX.Compose.Ui.toolingPreview)
 }
