@@ -10,10 +10,9 @@ plugins {
   id("de.fayard.refreshVersions") version "0.23.0"
 }
 
-rootProject.name = "kotlin-android-template"
+rootProject.name = "Gap"
 
 include(
   "sample",
-  "library-android",
-  "library-kotlin"
+  "gap",
 )
