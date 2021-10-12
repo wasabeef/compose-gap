@@ -6,6 +6,13 @@ Easily adding gaps inside such as Columns and Rows for Jetpack Compose.
 
 Inspired by [Flutter's Gap](https://pub.dev/packages/gap).
 
+## Introduction
+When it comes to add empty space between widgets inside a Column or a Row, we have multiple options:
+
+We can either add a Padding around these widgets but it's very verbose
+Or we can add Spacer widgets between them.
+Gap is another option. It's like Spacer but you don't have to know if it's inside a Row or a Column. So that it's less verbose than using a Spacer.
+
 ## Features
 
 Gradle settings
