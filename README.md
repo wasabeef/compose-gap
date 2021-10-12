@@ -2,7 +2,7 @@
 
 ![Android CI](https://github.com/wasabeef/compose-gap/workflows/Android%20CI/badge.svg) ![License](https://img.shields.io/badge/license-Apache%202-blue.svg) ![Language](https://img.shields.io/github/languages/top/cortinico/kotlin-android-template?color=blue&logo=kotlin)
 
-Easily adding gaps inside such as `Columns and Rows for Jetpack Compose.
+Easily adding gaps inside such as Columns and Rows for Jetpack Compose.
 
 Inspired by [Flutter's Gap](https://pub.dev/packages/gap).
 
