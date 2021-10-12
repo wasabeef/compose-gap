@@ -1,6 +1,16 @@
 # Compose Gap
 
-![Android CI](https://github.com/wasabeef/compose-gap/workflows/Android%20CI/badge.svg) ![License](https://img.shields.io/badge/license-Apache%202-blue.svg) ![Language](https://img.shields.io/github/languages/top/cortinico/kotlin-android-template?color=blue&logo=kotlin)
+<p align="left">
+  <a href="https://www.apache.org/licenses/LICENSE-2.0">
+    <img src="https://img.shields.io/badge/license-Apache%202-blue.svg" />
+  </a>
+  <a href="https://search.maven.org/search?q=jp.wasabeef.gap">
+    <img src="https://maven-badges.herokuapp.com/maven-central/jp.wasabeef/gap/badge.svg" />
+  </a>
+  <a href="https://github.com/wasabeef/compose-gap/actions">
+    <img src="https://github.com/wasabeef/compose-gap/actions/workflows/android-ci.yml/badge.svg" />
+  </a>
+</p>
 
 Easily adding gaps inside such as Columns and Rows for Jetpack Compose.
 
@@ -18,10 +28,10 @@ Gap is another option. It's like Spacer but you don't have to know if it's insid
 Gradle settings
 ```kotlin
 // Groovy DSL
-implementation 'jp.wasabeef:gap:x.y.z'
+implementation 'jp.wasabeef:gap:0.0.1'
 
 // Kotlin DSL
-implementation('jp.wasabeef:gap:x.y.z')
+implementation('jp.wasabeef:gap:0.0.1')
 ```
 
 Then you just have to add a `Gap` inside a `Column` or a `Row` with the specified extent.
