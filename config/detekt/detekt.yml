@@ -72,6 +72,8 @@ formatting:
     active: true
   ImportOrdering:
     active: true
+  WildcardImport:
+    active: false
 
 naming:
   MemberNameEqualsClassName:
