@@ -28,25 +28,21 @@ Gap is another option. It's like Spacer but you don't have to know if it's insid
 ## Features
 
 Gradle settings
-```kotlin
-// Groovy DSL
-implementation 'jp.wasabeef:gap:1.0.0'
-
-// Kotlin DSL
-implementation('jp.wasabeef:gap:1.0.0')
+```groovy
+implementation 'jp.wasabeef:gap:1.1.0'
 ```
 
 Then you just have to add a `Gap` inside a `Column` or a `Row` with the specified extent.
 ```kotlin
   Column {
     Text(text = "Hello")
-    Gap(height = 20.dp) // Adds an empty space of 20 dps.
+    Gap(20.dp) // Adds an empty space of 20 dps.
     Text(text = "World")
   }
 
   Row {
     Text(text = "Hello")
-    Gap(width = 20.dp) // Adds an empty space of 20 dps.
+    Gap(20.dp) // Adds an empty space of 20 dps.
     Text(text = "World")
   }
 ```
