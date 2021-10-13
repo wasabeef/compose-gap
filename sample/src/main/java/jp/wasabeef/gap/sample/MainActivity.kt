@@ -63,6 +63,7 @@ fun RowSample() {
 }
 
 @Composable
+@Suppress("MagicNumber")
 fun LazyColumnSample() {
   LazyColumn(modifier = Modifier
     .background(Color.LightGray)
@@ -86,6 +87,7 @@ fun LazyColumnSample() {
 }
 
 @Composable
+@Suppress("MagicNumber")
 fun LazyRowSample() {
   LazyRow {
     item {

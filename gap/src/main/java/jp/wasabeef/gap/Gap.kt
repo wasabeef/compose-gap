@@ -23,5 +23,5 @@ fun ColumnScope.Gap(height: Dp, modifier: Modifier = Modifier) {
 
 @Composable
 fun LazyItemScope.Gap(padding: Dp, modifier: Modifier = Modifier) {
-  Spacer(modifier = Modifier.size(padding))
+  Spacer(modifier = modifier.size(padding))
 }
