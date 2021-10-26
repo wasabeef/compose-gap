@@ -36,13 +36,15 @@ Then you just have to add a `Gap` inside a `Column` or a `Row` with the specifie
 ```kotlin
   Column {
     Text(text = "Hello")
-    Gap(20.dp) // Adds an empty space of 20 dps.
+    // Spacer(modifier = modifier.width(20.dp))
+    Gap(20.dp)
     Text(text = "World")
   }
 
   Row {
     Text(text = "Hello")
-    Gap(20.dp) // Adds an empty space of 20 dps.
+    // Spacer(modifier = modifier.height(20.dp))
+    Gap(20.dp)
     Text(text = "World")
   }
 ```
