@@ -1,0 +1,8 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:jp.wasabeef.gap////PointingToDeclaration/gap/jp.wasabeef.gap/index.html
+$dokka.location:jp.wasabeef.gap//Gap/androidx.compose.foundation.layout.ColumnScope#androidx.compose.ui.unit.Dp#androidx.compose.ui.Modifier/PointingToDeclaration/gap/jp.wasabeef.gap/-gap.html
+$dokka.location:jp.wasabeef.gap//Gap/androidx.compose.foundation.layout.RowScope#androidx.compose.ui.unit.Dp#androidx.compose.ui.Modifier/PointingToDeclaration/gap/jp.wasabeef.gap/-gap.html
+$dokka.location:jp.wasabeef.gap//Gap/androidx.compose.foundation.lazy.LazyItemScope#androidx.compose.ui.unit.Dp#androidx.compose.ui.Modifier/PointingToDeclaration/gap/jp.wasabeef.gap/-gap.html
+jp.wasabeef.gap
+

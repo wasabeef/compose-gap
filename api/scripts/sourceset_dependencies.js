@@ -1,0 +1,1 @@
+sourceset_dependencies = '{":gap:dokkaHtmlPartial/androidTestRelease":[],":gap:dokkaHtmlPartial/debug":[],":gap:dokkaHtmlPartial/main":[],":gap:dokkaHtmlPartial/release":[],":gap:dokkaHtmlPartial/testFixtures":[],":gap:dokkaHtmlPartial/testFixturesDebug":[],":gap:dokkaHtmlPartial/testFixturesRelease":[]}'
