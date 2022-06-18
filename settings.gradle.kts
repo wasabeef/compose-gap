@@ -7,7 +7,7 @@ pluginManagement {
 }
 
 plugins {
-  id("de.fayard.refreshVersions") version "0.23.0"
+  id("de.fayard.refreshVersions") version "0.40.2"
 }
 
 rootProject.name = "Gap"
